@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 // AWS Setup           
-const String AWS_EP = "<custom endpoint>.iot.eu-central-1.amazonaws.com";    // AWS IoT Core Endpoint
+const String AWS_EP = "<custom endpoint>.amazonaws.com";    // AWS IoT Core Endpoint
 const String AWS_THING_NAME = "";       // Device Name
 const String AWS_CERT_ID = "";          // 10 Character Certificate ID from AWS
 const String AWS_SHADOW_TOPIC = "$aws/things/" + AWS_THING_NAME + "/shadow/update";
